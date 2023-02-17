@@ -1,6 +1,26 @@
 # 42_CPP_Module
 
 
+## std::string in cpp
+
+std::string, C++ programlama dilinde kullanılan bir sınıftır ve string veri türünü temsil eder. Stringler, bir veya daha fazla karakterin sıralı bir dizisi olarak tanımlanabilir ve metinleri depolamak için yaygın olarak kullanılır.
+
+std::string sınıfı, C dilinde kullanılan null-terminated char dizilerine (C-strings) benzer bir kullanım sunar, ancak C-strings'e kıyasla daha güvenli bir alternatif sunar. Bu sınıf, bir dizi metinle çalışırken bellek yönetimini otomatik olarak ele alır ve stringlerin boyutunu dinamik olarak ayarlar.
+
+bu örnekteki çıktıları kontrol ediniz:
+```cpp
+#include <iostream>
+
+int main()
+{
+    std::string a ("selam");
+    std::string &b = a;
+    char &c  = a[1]; 
+    std::cout << a << std::endl;
+    std::cout << b << std::endl;
+    std::cout << c << std::endl;
+}
+```
 
 ## Arguments passed by value and by reference in cpp
 
