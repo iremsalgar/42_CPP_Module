@@ -14,7 +14,7 @@ Argüman referans olarak geçirildiğinde, asıl argüman doğrudan fonksiyona g
 Argümanların nasıl geçirileceği, fonksiyonun işlevine ve programlama amaçlarına bağlıdır. Eğer bir fonksiyonun argümanlarını değiştirmesi gerekiyorsa, argümanlar referans olarak geçirilmelidir. Ancak, argüman değişikliklerinin orijinal argümanı etkilememesi gerektiğinde, argümanlar değer olarak geçirilmelidir.
 
 
-'''cpp
+```cpp
 #include <iostream>
 
 int deneme(int *c, int *d)
@@ -31,7 +31,7 @@ int deneme(int *c, int *d)
     std::cout << c << std::endl;
     return 0;
 }
-
+    
 int main()
 {
     int a = 5;
@@ -46,4 +46,4 @@ int main()
 
 
 }
-'''
+```
