@@ -95,7 +95,7 @@ int main()
 
 ## cmath kütüphanesi kullanımı ile ilgili örnekler
 
-```
+```cpp
 #include <iostream>
 #include <cmath>
 
